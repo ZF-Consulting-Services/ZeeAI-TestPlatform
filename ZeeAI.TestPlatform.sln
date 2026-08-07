@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCAF8259-48DB-4848-9D03-02AAA281E2C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.ZeeAI.CLI", "src\ZF.ZeeAI.CLI\ZF.ZeeAI.CLI.csproj", "{BDDCCAC2-FCD4-4634-A2FF-E711625D207A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.ZeeAI.Core", "src\ZF.ZeeAI.Core\ZF.ZeeAI.Core.csproj", "{9457B182-B1BF-49C9-8552-C5C7920EA0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZF.ZeeAI.Common", "src\ZF.ZeeAI.Common\ZF.ZeeAI.Common.csproj", "{D7BB48E4-85E4-432E-8845-3D279B391416}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDDCCAC2-FCD4-4634-A2FF-E711625D207A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDCCAC2-FCD4-4634-A2FF-E711625D207A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDCCAC2-FCD4-4634-A2FF-E711625D207A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDCCAC2-FCD4-4634-A2FF-E711625D207A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9457B182-B1BF-49C9-8552-C5C7920EA0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9457B182-B1BF-49C9-8552-C5C7920EA0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9457B182-B1BF-49C9-8552-C5C7920EA0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9457B182-B1BF-49C9-8552-C5C7920EA0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BB48E4-85E4-432E-8845-3D279B391416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BB48E4-85E4-432E-8845-3D279B391416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BB48E4-85E4-432E-8845-3D279B391416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BB48E4-85E4-432E-8845-3D279B391416}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDDCCAC2-FCD4-4634-A2FF-E711625D207A} = {FCAF8259-48DB-4848-9D03-02AAA281E2C8}
+		{9457B182-B1BF-49C9-8552-C5C7920EA0AD} = {FCAF8259-48DB-4848-9D03-02AAA281E2C8}
+		{D7BB48E4-85E4-432E-8845-3D279B391416} = {FCAF8259-48DB-4848-9D03-02AAA281E2C8}
+	EndGlobalSection
+EndGlobal
